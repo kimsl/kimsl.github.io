@@ -50,7 +50,6 @@ ol, ul {
 #main-header {
     color: white;
     min-height: 100%;
-    padding-top: 45px;
     width: 100%;
 }
 
@@ -117,4 +116,10 @@ section {
 
 #nav-social i:hover:before {
     border: solid 1px #FFDEB8;
+}
+
+@media (max-width: 450px) {
+    .header-content {
+        top: 10%;
+    }
 }
